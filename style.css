@@ -38,8 +38,7 @@ main{
 
 }
 
-.about-me{
+.typedtext{
     display: flex;
-
-
+    align-items: center;
 }
