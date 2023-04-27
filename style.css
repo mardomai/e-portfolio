@@ -73,34 +73,39 @@ body {
 
 .fade-in-image {
     animation: fadeIn 12s;
+    visibility: hidden;
+    animation-delay: 1s;
     -webkit-animation: fadeIn 12s;
+    -webkit-animation-delay: 12s;
     -moz-animation: fadeIn 12s;
+    -moz-animation-delay: 12s;
     -o-animation: fadeIn 12s;
+    -o-animation-delay: 12s;
     -ms-animation: fadeIn 12s;
-    transition-duration: 12s;
-  }
-  
+    -ms-animation-delay: 12s;
+    }
+
   @keyframes fadeIn {
-    0% { opacity: 0; }
+    0% { opacity: 0; visibility: visible; }
     100% { opacity: 1; }
   }
   
   @-moz-keyframes fadeIn {
-    0% { opacity: 0; }
+    0% { opacity: 0; visibility: visible }
     100% { opacity: 1; }
   }
   
   @-webkit-keyframes fadeIn {
-    0% { opacity: 0; }
+    0% { opacity: 0; visibility: visible }
     100% { opacity: 1; }
   }
   
   @-o-keyframes fadeIn {
-    0% { opacity: 0; }
+    0% { opacity: 0; visibility: visible }
     100% { opacity: 1; }
   }
   
   @-ms-keyframes fadeIn {
-    0% { opacity: 0; }
+    0% { opacity: 0; visibility: visible}
     100% { opacity: 1; }
   }
