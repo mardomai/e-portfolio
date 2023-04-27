@@ -36,6 +36,7 @@ main{
     width: 80%;
     display: flex;
     margin: auto;
+    flex-direction: column;
 }
 
 .typedtext{
@@ -87,25 +88,26 @@ body {
 
   @keyframes fadeIn {
     0% { opacity: 0; visibility: visible; }
-    100% { opacity: 1; }
+    100% { opacity: 1; visibility: visible }
   }
   
   @-moz-keyframes fadeIn {
     0% { opacity: 0; visibility: visible }
-    100% { opacity: 1; }
+    100% { opacity: 1; visibility: visible }
   }
   
   @-webkit-keyframes fadeIn {
     0% { opacity: 0; visibility: visible }
-    100% { opacity: 1; }
+    100% { opacity: 1; visibility: visible }
   }
   
   @-o-keyframes fadeIn {
     0% { opacity: 0; visibility: visible }
-    100% { opacity: 1; }
+    100% { opacity: 1; visibility: visible }
   }
   
   @-ms-keyframes fadeIn {
     0% { opacity: 0; visibility: visible}
-    100% { opacity: 1; }
+    100% { opacity: 1; visibility: visible }
   }
+
