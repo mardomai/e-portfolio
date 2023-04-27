@@ -12,6 +12,7 @@ header {
     display: flex;
     align-items: center;
     background-color: #2C3333 ;
+    position: fixed;
 }
 
 .buttons {
@@ -27,7 +28,7 @@ header {
     color: #CBE4DE;
 }
 
-a:hover{
+.buttons a:hover{
     transform: scale(1.2);
     color: black;
 }
@@ -37,6 +38,7 @@ main{
     display: flex;
     margin: auto;
     flex-direction: column;
+    padding-top: 6rem;
 }
 
 .typedtext{
@@ -53,15 +55,17 @@ main{
     align-content: center;
     justify-content: center;
     margin-top: 9rem;
+    padding-bottom: 40px;
     
 }
 
-.about-me{
+.Home{
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     width: 90%;
+    margin: auto;
 }
 
 body {
@@ -111,3 +115,41 @@ body {
     100% { opacity: 1; visibility: visible }
   }
 
+.image {
+    width: 100% ;
+}
+
+.image1 {
+    width: 100%;
+}
+
+.image2 {
+    width: 100%;
+}
+
+.Projects {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Projects p {
+    padding: 60px 20px;
+    font-size: 30px;
+}
+
+.Projects h1 {
+    font-size: 40px;
+    padding: 60px 20px;
+}
+
+.Contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Contact h1 {
+    padding-top: 16rem;
+    font-size: 40px;
+}
