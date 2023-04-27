@@ -153,3 +153,25 @@ body {
     padding-top: 16rem;
     font-size: 40px;
 }
+
+i {
+    font-size: 40px ;
+}
+
+.i {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 100%;
+    padding-top: 3rem;
+    gap: 40px;
+    font-size: 25px;
+}
+
+.copyright {
+    display: flex;
+    height: 20px;
+    width: 100%;
+    background-color: #2C3333;
+    justify-content: center;
+}
